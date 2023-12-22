@@ -1,38 +1,48 @@
-###### MERN Blog
-MERN Blog is a full-stack open-source blogging application built with MongoDB, Express, React, and Node.js (MERN stack).
+# MERN Blog
 
-###### Configuration and Setup
+**MERN Blog** is a full-stack open-source blogging application built with MongoDB, Express, React, and Node.js (MERN stack).
+
+## Configuration and Setup
+
 To run this project locally, follow these steps:
 
-1.Fork and clone the repository or download it as a zip file and unzip it on your machine
-2.Open the project in your preferred code editor.
-3.Open a terminal and split it into two:
+1. Fork and clone the repository or download it as a zip file and unzip it on your machine.
+2. Open the project in your preferred code editor.
+3. Open a terminal and split it into two:
 
-In the first terminal:
-$ cd Frontend
-$ npm install # Install frontend-side dependencies
-$ npm run start # Start the frontend
+   - In the first terminal:
 
-In the second terminal:
-$ cd Backend
-$ npm install # Install backend-side dependencies
-$ npm start # Start the backend
+     ```bash
+     $ cd Frontend
+     $ npm install # Install frontend-side dependencies
+     $ npm run start # Start the frontend
+     ```
 
-4.Set environment variables in config.env under ./config. Create your MongoDB connection URL (MONGO_URI) and supply other required credentials as follows:
-Config.env:
-NODE_ENV = development
-PORT = 5000
-URI = http://localhost:3000
-MONGO_URI = your_mongo_db_connection_url
-JWT_SECRET_KEY = your_jwt_secret_key
-JWT_EXPIRE = 60m
-RESET_PASSWORD_EXPIRE = 3600000
+   - In the second terminal:
 
-# Nodemailer
-SMTP_HOST = smtp.gmail.com
-SMTP_PORT = 587
-EMAIL_USERNAME = example@gmail.com
-EMAIL_PASS = your_password
+     ```bash
+     $ cd Backend
+     $ npm install # Install backend-side dependencies
+     $ npm start # Start the backend
+     ```
+
+4. Set environment variables in `config.env` under `./config`. Create your MongoDB connection URL (`MONGO_URI`) and supply other required credentials as follows:
+
+   **Config.env:**
+   ```env
+   NODE_ENV = development
+   PORT = 5000
+   URI = http://localhost:3000
+   MONGO_URI = your_mongo_db_connection_url
+   JWT_SECRET_KEY = your_jwt_secret_key
+   JWT_EXPIRE = 60m
+   RESET_PASSWORD_EXPIRE = 3600000
+
+   # Nodemailer
+   SMTP_HOST = smtp.gmail.com
+   SMTP_PORT = 587
+   EMAIL_USERNAME = example@gmail.com
+   EMAIL_PASS = your_password
 
 ###### Key Features
 -User registration and login
