@@ -44,40 +44,42 @@ To run this project locally, follow these steps:
    EMAIL_USERNAME = example@gmail.com
    EMAIL_PASS = your_password
 
-###### Key Features
--User registration and login
--Authentication using JWT Tokens
--Story searching and pagination
-CRUD operations (Story create, read, update, and delete)
--Upload user images and story images to the server
--Liking stories and adding stories to the Reading list
--Commenting on the story
--Skeleton loading effect
--Responsive Design
-
-###### Technologies Used
+Key Features
+User Registration and Login: Allow users to create accounts and log in.
+Authentication using JWT Tokens: Secure user authentication using JSON Web Tokens.
+Story Searching and Pagination: Easily find stories with search functionality and pagination.
+CRUD Operations: Perform create, read, update, and delete operations on stories.
+Image Uploads: Upload user images and story images to the server.
+Liking Stories and Reading List: Users can like stories and add them to their reading list.
+Comments: Enable users to leave comments on stories.
+Skeleton Loading Effect: Improve user experience with skeleton loading for smoother transitions.
+Responsive Design: Ensure a seamless experience across various devices.
+Technologies Used
 Frontend
-React.js - JavaScript library for building user interfaces
-React Hooks - For managing and centralizing application state
-react-router-dom - Handling routing
-axios - For making API calls
-Css - For User Interface
-CK-Editor - Rich Text Editor
-uuid - For random ID generation
-React icons - Library for adding icons to React apps
-
+React.js: JavaScript library for building user interfaces.
+React Hooks: Manage and centralize application state.
+react-router-dom: Handle routing in the application.
+axios: Make API calls from the frontend.
+CSS: Style the User Interface.
+CK-Editor: Rich Text Editor for enhanced content creation.
+uuid: Generate random IDs.
+React icons: Library for adding icons to React apps.
 Backend
-Node.js - Runtime environment for building fast server applications using JS
-Express.js - Server for handling and routing HTTP requests
-Mongoose - For modeling and mapping MongoDB data to JavaScript
-express-async-handler - Middleware for handling exceptions inside async express routes
-jsonwebtoken - For authentication
-Bcryptjs - For data encryption
-Nodemailer - Sending emails from Node.js
-Dotenv - Loading environment variables
-multer - Node.js middleware for uploading files
-slugify - For encoding titles into a URL-friendly format
-cors - Provides Connect/Express middleware
-
+Node.js: Runtime environment for building fast server applications using JavaScript.
+Express.js: Server for handling and routing HTTP requests.
+Mongoose: Model and map MongoDB data to JavaScript.
+express-async-handler: Middleware for handling exceptions inside async express routes.
+jsonwebtoken: Authentication using JSON Web Tokens.
+Bcryptjs: Data encryption for security.
+Nodemailer: Send emails from Node.js.
+Dotenv: Load environment variables.
+multer: Node.js middleware for uploading files.
+slugify: Encode titles into a URL-friendly format.
+cors: Provides Connect/Express middleware.
 Database
-MongoDB - NoSQL database providing a free cloud service to store MongoDB collections
+MongoDB: NoSQL database providing a free cloud service to store MongoDB collections.
+Screenshots
+
+
+Author
+[Your Name]
