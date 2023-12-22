@@ -55,7 +55,7 @@ To run this project locally, follow these steps:
 --Skeleton Loading Effect: Improve user experience with skeleton loading for smoother transitions.
 --Responsive Design: Ensure a seamless experience across various devices.
 ## Technologies Used
-Frontend
+## Frontend
 React.js: JavaScript library for building user interfaces.
 React Hooks: Manage and centralize application state.
 react-router-dom: Handle routing in the application.
@@ -64,7 +64,7 @@ CSS: Style the User Interface.
 CK-Editor: Rich Text Editor for enhanced content creation.
 uuid: Generate random IDs.
 React icons: Library for adding icons to React apps.
-Backend
+## Backend
 Node.js: Runtime environment for building fast server applications using JavaScript.
 Express.js: Server for handling and routing HTTP requests.
 Mongoose: Model and map MongoDB data to JavaScript.
@@ -82,4 +82,4 @@ Screenshots
 
 
 Author
-[Your Name]
+RAVINES MISHRA
