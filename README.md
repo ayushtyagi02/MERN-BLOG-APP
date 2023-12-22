@@ -1,7 +1,7 @@
-######MERN Blog
+###### MERN Blog
 MERN Blog is a full-stack open-source blogging application built with MongoDB, Express, React, and Node.js (MERN stack).
 
-######Configuration and Setup
+###### Configuration and Setup
 To run this project locally, follow these steps:
 
 1.Fork and clone the repository or download it as a zip file and unzip it on your machine
@@ -34,7 +34,7 @@ SMTP_PORT = 587
 EMAIL_USERNAME = example@gmail.com
 EMAIL_PASS = your_password
 
-######Key Features
+###### Key Features
 -User registration and login
 -Authentication using JWT Tokens
 -Story searching and pagination
@@ -45,7 +45,7 @@ CRUD operations (Story create, read, update, and delete)
 -Skeleton loading effect
 -Responsive Design
 
-######Technologies Used
+###### Technologies Used
 Frontend
 React.js - JavaScript library for building user interfaces
 React Hooks - For managing and centralizing application state
