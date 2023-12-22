@@ -44,17 +44,17 @@ To run this project locally, follow these steps:
    EMAIL_USERNAME = example@gmail.com
    EMAIL_PASS = your_password
 
-Key Features
-User Registration and Login: Allow users to create accounts and log in.
-Authentication using JWT Tokens: Secure user authentication using JSON Web Tokens.
-Story Searching and Pagination: Easily find stories with search functionality and pagination.
-CRUD Operations: Perform create, read, update, and delete operations on stories.
-Image Uploads: Upload user images and story images to the server.
-Liking Stories and Reading List: Users can like stories and add them to their reading list.
-Comments: Enable users to leave comments on stories.
-Skeleton Loading Effect: Improve user experience with skeleton loading for smoother transitions.
-Responsive Design: Ensure a seamless experience across various devices.
-Technologies Used
+## Key Features
+--User Registration and Login: Allow users to create accounts and log in.
+--Authentication using JWT Tokens: Secure user authentication using JSON Web Tokens.
+--Story Searching and Pagination: Easily find stories with search functionality and pagination.
+--CRUD Operations: Perform create, read, update, and delete operations on stories.
+--Image Uploads: Upload user images and story images to the server.
+--Liking Stories and Reading List: Users can like stories and add them to their reading list.
+--Comments: Enable users to leave comments on stories.
+--Skeleton Loading Effect: Improve user experience with skeleton loading for smoother transitions.
+--Responsive Design: Ensure a seamless experience across various devices.
+## Technologies Used
 Frontend
 React.js: JavaScript library for building user interfaces.
 React Hooks: Manage and centralize application state.
