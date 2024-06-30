@@ -65,7 +65,7 @@ const Home = () => {
 
         <div className="skeleton_emp">
           {
-            [...Array(6)].map(() => {
+            [...Array(6)]?.map(() => {
               return (
                 // theme dark :> default : light
                 <SkeletonStory key={uuidv4()} />
@@ -77,7 +77,7 @@ const Home = () => {
         <div>
           <div className="story-card-wrapper">
             {stories?.length !== 0 ?
-              stories.map((story) => {
+              stories?.map((story) => {
                 return (
                   <CardStory key={uuidv4()} story={story} />
                 )
