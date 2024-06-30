@@ -14,7 +14,7 @@ const LoginScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://blog-app-3rry.onrender.com/auth/login",
+        "localhost://5000/auth/login",
         { email, password }
       );
       localStorage.setItem("authToken", data.token);
