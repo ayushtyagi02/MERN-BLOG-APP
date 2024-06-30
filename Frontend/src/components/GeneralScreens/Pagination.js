@@ -5,13 +5,13 @@ import { TiMinus } from 'react-icons/ti'
 
 const Pagination = ({ page, pages, changePage }) => {
     function numberRange(start, end) {
-        return new Array(end - start).fill()?.map((d, i) => i + start);
+        return new Array(end - start).fill().map((d, i) => i + start);
     }
 
     let middlePagination;
 
     if (pages <= 5) {
-        middlePagination = [...Array(pages)]?.map((__, index) => (
+        middlePagination = [...Array(pages)].map((__, index) => (
 
             <button
                 key={index + 1}
