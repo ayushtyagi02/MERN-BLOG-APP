@@ -14,7 +14,7 @@ const LoginScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "localhost://5000/auth/login",
+        "http://localhost:5000/auth/login",
         { email, password }
       );
       localStorage.setItem("authToken", data.token);
