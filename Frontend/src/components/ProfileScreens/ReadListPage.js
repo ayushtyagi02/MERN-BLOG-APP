@@ -89,7 +89,7 @@ const ReadListPage = () => {
 
                         {readList?.length !== 0 ?
                             <>
-                                {readList.map(story => {
+                                {readList?.map(story => {
                                     return (
                                         <ReadListStoryItem key={story._id} story={story} editDate={editDate} />
 
